@@ -6,9 +6,65 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .wrapper {
   box-sizing: border-box;
   min-height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.custom-navbar {
+  background-color: #1b774e;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.facility-landing {
+  flex: 1;
+  background-color: #274937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.facility-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.facility-content p {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 32px;
+}
+
+.facility-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.facility-button {
+  background-color: white;
+  color: #1c774e;
+  border: none;
+  border-radius: 12px;
+  width: 216px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.facility-button:hover {
+  background-color: #eeeeee;
+  color: #006838;
 }
